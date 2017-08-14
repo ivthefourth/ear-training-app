@@ -2,7 +2,7 @@
 [Live Link](https://ivthefourth.github.io/ear-training-app/)
 
 ## About
-A web app made to help audio engineers train their ears. This app uses the concept of reference mixing (A/B mixing) so that users actually practice correcting subtle differences between two similar audio signals. Other ear training programs focus more on detecting a difference or memorizing the sound of various frequency ranges, but this app combines the skill of perception with the practical application of equalization. 
+A web app made to help audio engineers train their ears. This app uses the concept of reference mixing (A/B mixing) so that users practice correcting subtle differences between two similar audio signals. Other ear training programs focus more on detecting a difference or memorizing the sound of various frequency ranges, but this app combines the skill of perception with the practical application of equalization. 
 
 This app will work on browsers that support the Web Audio API and is mobile responsive (mobile has only been tested in Safari so far).
 
