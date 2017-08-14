@@ -448,25 +448,6 @@ eq.loadPreset('allParametersEasy');
 eq.settings.fillHtmlSelect(eqAudiofiles, '#track0-audio-files');
 eq.settings.fillHtmlSelect(eqPresets, '#eq-presets');
 
-//CRAP BECAUSE CHROME BROKE THIS:
-
-var emptyBuffer = audioCtx.createBuffer(2, 22050, 44100);
-var sourceNode = audioCtx.createBufferSource();
-sourceNode.loop = true; 
-sourceNode.buffer = emptyBuffer;
-sourceNode.connect(eq.tracks[0].filter.user.node);
-sourceNode.connect(eq.tracks[0].filter.reference.node);
-sourceNode.start(audioCtx.currentTime);
-eq.toggleReference();
-eq.toggleReference();
-eq.mute();
-eq.mute();
-eq.tracks[0].filter.user.frequency.value = 32;
-eq.tracks[0].filter.reference.frequency.value = 32;
-eq.resetGame();
-//ENDCRAP
-
-
 
 var doSpectrum = true;
 var filterArray = [eq.tracks[0].filter.user];
