@@ -412,6 +412,8 @@
 	overflow-y: auto;
 	overflow-x: hidden;
 	height: calc(100% - 91px);
+	
+	-webkit-overflow-scrolling: touch;
 
 }
 .settings-container.shown{
